@@ -5,7 +5,11 @@
 ///
 
 /* Section/Article */
-
+	#wrapper {
+		section {
+			display: none;
+		}
+	}
 	section, article {
 		&.special {
 			text-align: center;
